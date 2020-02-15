@@ -69,7 +69,7 @@
   <h3 style="text-align:right;margin-right:50px">
   	Соцсети
   </h3>
-  <a href="https://vk.com/thispagedoesnotexist">
-    <img src="iconmonstr-vk-4-96.png" width="32">
-  </a>
+  <img src="iconmonstr-vk-4-96.png" width="48" href="https://vk.com/thispagedoesnotexist">
+  <img src="iconmonstr-facebook-4-96.png" width="48" href="https://www.facebook.com/thispagedoesnotexist">
+  <img src="iconmonstr-instagram-14-96.png" width="48" href="https://www.instagram.com/thispagedoesnotexist">
 </footer>
