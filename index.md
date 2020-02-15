@@ -73,7 +73,7 @@
     <img src="iconmonstr-vk-4-96.png" style="width:48px;float:right;" alt="Наша страница Вконтакте">
   </a>
   <a href="https://www.facebook.com/thispagedoesnotexist">
-    <img src=src="iconmonstr-facebook-4-96.png" style="width:48px;float:right;" alt="Наша страница Facebook">
+    <img src="iconmonstr-facebook-4-96.png" style="width:48px;float:right;" alt="Наша страница Facebook">
   </a>
   <a href="https://www.instagram.com/thispagedoesnotexist">
     <img src="iconmonstr-instagram-14-96.png" style="width:48px;float:right;" alt="Наша страница Instagram">
