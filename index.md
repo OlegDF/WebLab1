@@ -58,7 +58,7 @@
   <br> Ваш телефон <br>
   <input align="center">
   <br> Сообщение <br>
-  <textarea>
+  <textarea></textarea>
   <br>
   <button>
    Отправить
@@ -70,6 +70,6 @@
   	Соцсети
   </h3>
   <a href="vk.com/thispagedoesnotexist">
-    <img src="iconmonstr-vk-4-96.png">
+    <img src="iconmonstr-vk-4-96.png" width="32">
   </a>
 </footer>
