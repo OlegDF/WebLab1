@@ -65,8 +65,8 @@
   </button>
 </form>
 
-<footer>
-  <h3 style="text-align:right;margin-right:50px">
+<footer style="text-align:right;margin-right:50px">
+  <h3>
   	Соцсети
   </h3>
   <img src="iconmonstr-vk-4-96.png" width="48" href="https://vk.com/thispagedoesnotexist">
