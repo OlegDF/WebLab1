@@ -66,16 +66,17 @@
 </form>
 
 <footer>
-  <h3 style="text-align:right;margin-right:50px">
+  <h3 style="text-align:right>
   	Соцсети
   </h3>
-  <a href="https://vk.com/thispagedoesnotexist">
-    <img src="iconmonstr-vk-4-96.png" style="width:48px;float:right;" alt="Наша страница Вконтакте">
+  Соцсети
+  <a href="https://www.instagram.com/thispagedoesnotexist">
+    <img src="iconmonstr-instagram-14-96.png" style="width:48px;float:right;" alt="Наша страница Instagram">
   </a>
   <a href="https://www.facebook.com/thispagedoesnotexist">
     <img src="iconmonstr-facebook-4-96.png" style="width:48px;float:right;" alt="Наша страница Facebook">
   </a>
-  <a href="https://www.instagram.com/thispagedoesnotexist">
-    <img src="iconmonstr-instagram-14-96.png" style="width:48px;float:right;" alt="Наша страница Instagram">
+  <a href="https://vk.com/thispagedoesnotexist">
+    <img src="iconmonstr-vk-4-96.png" style="width:48px;float:right;" alt="Наша страница Вконтакте">
   </a>
 </footer>
