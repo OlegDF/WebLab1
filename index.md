@@ -65,11 +65,17 @@
   </button>
 </form>
 
-<footer style="text-align:right;margin-right:50px">
-  <h3>
+<footer>
+  <h3 style="text-align:right;margin-right:50px">
   	Соцсети
   </h3>
-  <img src="iconmonstr-vk-4-96.png" width="48" href="https://vk.com/thispagedoesnotexist">
-  <img src="iconmonstr-facebook-4-96.png" width="48" href="https://www.facebook.com/thispagedoesnotexist">
-  <img src="iconmonstr-instagram-14-96.png" width="48" href="https://www.instagram.com/thispagedoesnotexist">
+  <a href="https://vk.com/thispagedoesnotexist">
+    <img src="iconmonstr-vk-4-96.png" width="48" alt="Наша страница Вконтакте">
+  </a>
+  <a href="https://www.facebook.com/thispagedoesnotexist">
+    <img src=src="iconmonstr-facebook-4-96.png" width="48" alt="Наша страница Facebook">
+  </a>
+  <a href="https://www.instagram.com/thispagedoesnotexist">
+    <img src="iconmonstr-instagram-14-96.png" width="48" alt="Наша страница Instagram">
+  </a>
 </footer>
