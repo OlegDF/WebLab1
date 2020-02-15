@@ -58,7 +58,7 @@
   <br/> Ваш телефон <br/>
   <input align="center"/>
   <br/> Сообщение <br/>
-  <textarea></textarea>
+  <textarea/>
   <br/>
   <button>
    Отправить
