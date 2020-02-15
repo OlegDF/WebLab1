@@ -5,6 +5,7 @@
 </header>
 
 <main style="text-align:right">
+  <img src="box-2864328_1280.png" style="width:600px;float:left" alt="Символическое изображение УСЛУГИ"/>
   <h2>
     Воспользуйтесь нашей УСЛУГОЙ сейчас
   </h2>
@@ -14,30 +15,18 @@
 </main>
 
 <article>
-  <section>
-    <h3>
+  <h3>Преимущества УСЛУГИ:</h3>
+  <ul>
+    <li>
       Пункт 1
-    </h3>
-    <p>
-      ...
-    </p>
-  </section>
-  <section>
-    <h3>
+    </li>
+    <li>
       Пункт 2
-    </h3>
-    <p>
-      ...
-    </p>
-  </section>
-  <section>
-    <h3>
+    </li>
+    <li>
       Пункт 3
-    </h3>
-    <p>
-      ...
-    </p>
-  </section>
+    </li>
+  </ul>
 </article>
 
 <article>
@@ -66,8 +55,8 @@
 </form>
 
 <footer>
-  <p>
-    <span style="text-align:right;font-size:32px;margin-right:10px">Соцсети</span>
+  <p style="text-align:right">
+    <span style="font-size:32px;margin-right:10px">Соцсети</span>
     <a href="https://www.instagram.com/thispagedoesnotexist">
       <img src="iconmonstr-instagram-14-96.png" style="width:48px;float:right" alt="Наша страница Instagram"/>
     </a>
