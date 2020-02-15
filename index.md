@@ -53,13 +53,13 @@
   <h3>
     Свяжитесь с нами:
   </h3>
-  Ваш e-mail <br/>
-  <input align="center"/>
-  <br/> Ваш телефон <br/>
-  <input align="center"/>
-  <br/> Сообщение <br/>
-  <textarea/>
-  <br/>
+  Ваш e-mail <br>
+  <input align="center">
+  <br> Ваш телефон <br>
+  <input align="center">
+  <br> Сообщение <br>
+  <textarea>
+  <br>
   <button>
    Отправить
   </button>
@@ -69,4 +69,7 @@
   <h3 style="text-align:right;margin-right:50px">
   	Соцсети
   </h3>
+  <a href="vk.com/thispagedoesnotexist">
+    <img src="iconmonstr-vk-4-96.png">
+  </a>
 </footer>
