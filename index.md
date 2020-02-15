@@ -66,7 +66,7 @@
 </form>
 
 <footer>
-  <p style="text-align:right">
+  <p style="text-align:right;font-size:24px">
     Соцсети
     <a href="https://www.instagram.com/thispagedoesnotexist">
       <img src="iconmonstr-instagram-14-96.png" style="width:48px;float:right;" alt="Наша страница Instagram"/>
