@@ -30,7 +30,7 @@
 </article>
 
 <article>
-  <h3 style="text-align:center">
+  <h2 style="text-align:center">
     Описание услуги
   </h3>
     <p>
