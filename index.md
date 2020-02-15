@@ -1,6 +1,6 @@
 <header>
   <h1>
-    УСЛУГА
+    УСЛУГА (v1)
   </h1>
 </header>
 
@@ -67,7 +67,7 @@
 
 <footer>
   <p style="text-align:right>
-      Соцсети
+    <div>Соцсети</div>
     <a href="https://www.instagram.com/thispagedoesnotexist">
       <img src="iconmonstr-instagram-14-96.png" style="width:48px;float:right;" alt="Наша страница Instagram"/>
     </a>
