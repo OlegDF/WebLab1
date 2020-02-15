@@ -54,9 +54,9 @@
     Свяжитесь с нами:
   </h3>
   Ваш e-mail <br/>
-  <input align="center"></input>
+  <input align="center"/>
   <br/> Ваш телефон <br/>
-  <input align="center"></input>
+  <input align="center"/>
   <br/> Сообщение <br/>
   <textarea></textarea>
   <br/>
