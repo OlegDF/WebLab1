@@ -38,10 +38,12 @@
     </p>
 </article>
 
+<br clear="all">
+
 <form>
-  <h3>
+  <h2>
     Свяжитесь с нами:
-  </h3>
+  </h2>
   Ваш e-mail <br>
   <input align="center">
   <br> Ваш телефон <br>
