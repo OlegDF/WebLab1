@@ -1,68 +1,72 @@
 <header>
   <h1>
-    YE OLDE SHOPPE
+    УСЛУГА
   </h1>
 </header>
 
-<main style="text-align:right;margin-right:50px">
+<main style="text-align:right">
   <h2>
-    Buy our stuff
+    Воспользуйтесь нашей УСЛУГОЙ сейчас
   </h2>
   <p>
-    Our stuff is good <br/>
-    buy it you absolute peasant
+    Она очень хорошая
   </p>
 </main>
 
 <article>
   <section>
     <h3>
-      Reichspunkt Ein
+      Пункт 1
     </h3>
     <p>
-      uhh
+      ...
     </p>
   </section>
   <section>
     <h3>
-      Reichspunkt Zwei
+      Пункт 2
     </h3>
     <p>
-      what do I put here
+      ...
     </p>
   </section>
   <section>
     <h3>
-      Reichspunkt Drei
+      Пункт 3
     </h3>
     <p>
-      why does this part exist
+      ...
     </p>
   </section>
 </article>
 
 <article>
   <h3 style="text-align:center">
-    Here's what the product looks like
+    Описание услуги
   </h3>
     <p>
-      Just kidding, it is invisible <br/>
-      In fact, it is not even real.
+      ...................................................................................................
     </p>
 </article>
 
-<article>
-  <h3 style="text-align:center">
-    Contact us. DO IT
+<form>
+  <h3>
+    Свяжитесь с нами:
   </h3>
-    <p style="text-align:center">
-      Just kidding, it is invisible <br/>
-      In fact, it is not even real.
-    </p>
-</article>
+  Ваш e-mail <br/>
+  <input align="center"></input>
+  <br/> Ваш телефон <br/>
+  <input align="center"></input>
+  <br/> Сообщение <br/>
+  <textarea></textarea>
+  <br/>
+  <button>
+   Отправить
+  </button>
+</form>
 
 <footer>
-  <h3 style="text-align:right">
-  	Some social media
+  <h3 style="text-align:right;margin-right:50px">
+  	Соцсети
   </h3>
 </footer>
