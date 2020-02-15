@@ -5,7 +5,7 @@
 </header>
 
 <main style="text-align:right">
-  <img src="box-2864328_1280.png" style="width:600px;float:left" alt="Символическое изображение УСЛУГИ"/>
+  <img src="box-2864328_1280.png" style="width:500px" alt="Символическое изображение УСЛУГИ"/>
   <h2>
     Воспользуйтесь нашей УСЛУГОЙ сейчас
   </h2>
