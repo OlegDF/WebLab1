@@ -20,7 +20,8 @@ input {
 
 section {
   clear: both;
-  display: inline-block;
+  display: block;
   float: center;
   overflow: auto;
+  height: 0;
 }
