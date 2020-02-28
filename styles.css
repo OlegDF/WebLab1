@@ -22,6 +22,6 @@ section {
   clear: both;
   display: block;
   float: center;
-  overflow: auto;
+  overflow: hidden;
   height: 0;
 }
