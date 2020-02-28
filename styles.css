@@ -17,3 +17,7 @@ p {
 input {
   align: "center";
 }
+
+section {
+  style="clear: both"
+}
