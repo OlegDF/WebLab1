@@ -15,9 +15,10 @@ p {
 }
 
 input {
-  align: "center";
+  align: center;
 }
 
 section {
-  clear: "both";
+  clear: both;
+  display: inline-block;
 }
