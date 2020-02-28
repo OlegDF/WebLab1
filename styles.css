@@ -19,5 +19,5 @@ input {
 }
 
 section {
-  style="clear: both"
+  clear: "both";
 }
