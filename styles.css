@@ -22,4 +22,5 @@ section {
   clear: both;
   display: inline-block;
   float: center;
+  overflow: auto;
 }
