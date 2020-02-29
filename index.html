@@ -10,69 +10,85 @@
   <h1>
     Сайты на заказ
   </h1>
+  <nav class="nav_list">
+    <li class="nav_element">Сделать заказ</li>
+	<li class="nav_element">Связаться с нами</li>
+	<li class="nav_element">Наши вакансии</li>
+  </nav>
 </header>
 
-<main style="text-align:left; float:center;">
-  <section>
-    <img src="box-2864328_1280.png" style="width:500px;float:right" alt="Символическое изображение сайта"/>
-    <h2>
-      Распространите информацию о Вашей компании
-    </h2>
-    <p>
-      С новым вебсайтом Ваши клиенты смогут узнать все, что им необходимо знать о Вашем продукте
-    </p>
-  </section>
+<main>
+  <article class="main_part">
+    <section class="main_line">
+	  <h2>
+        Распространите информацию о Вашей компании
+      </h2>
+	  <p>
+	  С новым веб-сайтом Ваши клиенты смогут узнать все, что им необходимо знать о Вашем продукте
+	  </p>
+	</section>
+    <img src="popular-layouts-quantidesign.jpg" class="main_image" alt="Символическое изображение сайтов"/>
+  </article>
   
-  <section>
-    <p>
-      Наша компания может предоставить Вам услуги по созданию сайта, который лучше всего подойдет Вашей компании и произведет наилучшее первое впечатление на Ваших клиентов
-    </p>
-  </section>
-
-  <section>
-    <h3>Преимущества наших сайтов:</h3>
-    <ul>
-      <li>
-        Надежность
-      </li>
-      <li>
-        Современный дизайн
-      </li>
-      <li>
-        Приспособленность к Вашим потребностям
-      </li>
-    </ul>
-  </section>
-  
-  <form>
-    <h2>
-      Свяжитесь с нами:
-    </h2>
-    Ваш e-mail <br>
-    <input align="center">
-    <br> Ваш телефон <br>
-    <input align="center">
-    <br> Сообщение <br>
-    <textarea></textarea>
-    <br>
-    <button>
-     Отправить
-    </button>
-  </form>
+  <article class="description">
+    <section>
+      <p>
+        Наша компания может предоставить Вам услуги по созданию сайта, который лучше всего подойдет Вашей компании и произведет наилучшее первое впечатление на Ваших клиентов.
+      </p>
+    </section>
+    
+    <section>
+      <h3>Преимущества наших сайтов:</h3>
+      <ul class="three_points">
+        <li class="three_points_entry">
+          Надежность
+        </li>
+        <li class="three_points_entry">
+          Современный дизайн
+        </li>
+        <li class="three_points_entry">
+          Приспособленность к Вашим потребностям
+        </li>
+      </ul>
+    </section>
+    
+	<hr class="separator">
+	
+    <form>
+      <h3>
+        Свяжитесь с нами:
+      </h3>
+	  <div class="field">
+        <label for="email">Ваш e-mail</label>
+        <input id="email">
+      </div>
+	  <div class="field">
+        <label for="phone">Ваш телефон</label>
+        <input id="phone">
+      </div>
+	  <div class="field">
+        <label for="message_input">Сообщение</label>
+        <textarea id="message_input"></textarea>
+      </div>
+      <button>
+       Отправить
+      </button>
+    </form>
+  </article>
 </main>
 
 <footer>
-  <nav style="text-align:right">
-    <span style="font-size:32px;margin-right:10px">Соцсети</span>
+  <section class="soc_media">
+    <span class="footer_text">Соцсети</span>
     <a href="https://www.instagram.com/thispagedoesnotexist">
-      <img src="iconmonstr-instagram-14-96.png" style="width:48px;float:right" alt="Наша страница Instagram"/>
+      <img src="iconmonstr-instagram-14-96.png" class="soc_media_icon" alt="Наша страница Instagram"/>
     </a>
     <a href="https://www.facebook.com/thispagedoesnotexist">
-      <img src="iconmonstr-facebook-4-96.png" style="width:48px;float:right" alt="Наша страница Facebook"/>
+      <img src="iconmonstr-facebook-4-96.png" class="soc_media_icon" alt="Наша страница Facebook"/>
     </a>
     <a href="https://vk.com/thispagedoesnotexist">
-      <img src="iconmonstr-vk-4-96.png" style="width:48px;float:right" alt="Наша страница Вконтакте"/>
+      <img src="iconmonstr-vk-4-96.png" class="soc_media_icon" alt="Наша страница Вконтакте"/>
     </a>
-  </nav>
+  </section>
 </footer>
 </html>
