@@ -63,6 +63,10 @@ header {
   background-color: rgb(32, 48, 160);
 }
 
+.nav_element a {
+	color: rgb(224, 224, 256)
+}
+
 main {
   background-color: rgb(32, 32, 128);
 }
