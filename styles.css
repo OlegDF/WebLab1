@@ -6,7 +6,7 @@ html {
 h1 {
   font-size: calc(15px + 1.25vw);
   float: left;
-  width: 28%;
+  width: 20%;
 }
 
 h2 {
@@ -25,14 +25,22 @@ p {
 .three_points {
   font-size: calc(8px + 0.6vw);
   color: rgb(16, 16, 64);
+  list-style-type: circle;
 }
 
 @media only screen and (min-width: 768px) {
   .three_points {
     display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    list-style-type: none;
+	margin: 0%;
+	padding-inline-start: 0px;
   }
   .three_points_entry {
     margin: 3.5%;
+	flex: 1 1 100%;
   }
 }
 
@@ -45,11 +53,13 @@ header {
   color: rgb(224, 224, 256);
 }
 
+nav {
+  float: left;
+  width: 80%;
+}
+
 .nav_list {
   list-style-type: none;
-  float: left;
-  width: 70%;
-  display: flex;
 }
 
 .nav_element {
@@ -64,7 +74,8 @@ header {
 }
 
 .nav_element a {
-	color: rgb(224, 224, 256)
+  color: rgb(224, 224, 256);
+  white-space: nowrap;
 }
 
 main {
@@ -127,7 +138,7 @@ label {
   margin-right:10px;
 }
 
-hr {
+.separator {
   border-color: rgb(48, 64, 192);
   margin-left: 5%;
   margin-right: 5%;
