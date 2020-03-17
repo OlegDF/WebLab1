@@ -5,12 +5,12 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<html>
-<header>
-  <h1>
+<html class="general_style">
+<header class="header_bar">
+  <h1 class="page_title">
     Сайты на заказ
   </h1>
-  <nav>
+  <nav class="navigation_bar">
 	<ul class="nav_list">
 		<li class="nav_element"><a href="https://www.thiswebsitedoesnotexist.kz/order">Сделать заказ</a></li>
 		<li class="nav_element" href="https://www.thiswebsitedoesnotexist.kz/contact"><a href="https://www.thiswebsitedoesnotexist.kz/contact">Связаться с нами</a></li>
@@ -19,13 +19,13 @@
   </nav>
 </header>
 
-<main>
-  <article class="main_part">
+<main class="main_part">
+  <article class="main_section">
     <section class="main_line">
-	  <h2>
+	  <h2 class="main_section_title">
         Распространите информацию о Вашей компании
       </h2>
-	  <p>
+	  <p class="generic_paragraph">
 	  С новым веб-сайтом Ваши клиенты смогут узнать все, что им необходимо знать о Вашем продукте
 	  </p>
 	</section>
@@ -34,22 +34,25 @@
   
   <article class="description">
     <section>
-      <p>
+      <p class="generic_paragraph">
         Наша компания может предоставить Вам услуги по созданию сайта, который лучше всего подойдет Вашей компании и произведет наилучшее первое впечатление на Ваших клиентов.
       </p>
     </section>
     
     <section>
-      <h3>Преимущества наших сайтов:</h3>
+      <h3 class="section_header">Преимущества наших сайтов:</h3>
       <ul class="three_points">
         <li class="three_points_entry">
           Надежность
+          <img src="three_points_1.jpg" class="three_points_image" alt="Пункт 1"/>
         </li>
         <li class="three_points_entry">
           Современный дизайн
+          <img src="three_points_2.jpg" class="three_points_image" alt="Пункт 2"/>
         </li>
         <li class="three_points_entry">
           Приспособленность к Вашим потребностям
+          <img src="three_points_3.jpg" class="three_points_image" alt="Пункт 3"/>
         </li>
       </ul>
     </section>
@@ -57,40 +60,48 @@
 	<hr class="separator">
 	
     <form>
-      <h3>
+      <h3 class="section_header">
         Свяжитесь с нами:
       </h3>
 	  <div class="field">
-        <label for="email">Ваш e-mail</label>
-        <input id="email">
+        <label for="email" class="input_field_label">Ваш e-mail</label>
+        <input id="email" placeholder="your@mail.ru" class="input_field">
       </div>
 	  <div class="field">
-        <label for="phone">Ваш телефон</label>
-        <input id="phone">
+        <label for="phone" class="input_field_label">Ваш телефон</label>
+        <input id="phone" placeholder="+79008007060" class="input_field">
       </div>
 	  <div class="field">
-        <label for="message_input">Сообщение</label>
-        <textarea id="message_input"></textarea>
+        <label for="message_input" class="input_field_label">Сообщение</label>
+        <textarea id="message_input" placeholder="Ваше сообщение..." class="input_field"></textarea>
       </div>
-      <button>
+      <button class="send_button">
        Отправить
       </button>
     </form>
   </article>
 </main>
 
-<footer>
+<footer class="footer_bar">
   <section class="soc_media">
-    <span class="footer_text">Соцсети</span>
-    <a href="https://www.instagram.com/thispagedoesnotexist">
-      <img src="iconmonstr-instagram-14-96.png" class="soc_media_icon" alt="Наша страница Instagram"/>
-    </a>
-    <a href="https://www.facebook.com/thispagedoesnotexist">
-      <img src="iconmonstr-facebook-4-96.png" class="soc_media_icon" alt="Наша страница Facebook"/>
-    </a>
-    <a href="https://vk.com/thispagedoesnotexist">
-      <img src="iconmonstr-vk-4-96.png" class="soc_media_icon" alt="Наша страница Вконтакте"/>
-    </a>
+    <ul class="soc_media_list">
+	  <li class="soc_media_element">
+	    <a href="https://www.instagram.com/thispagedoesnotexist">
+	      <img src="iconmonstr-instagram-14-96.png" class="soc_media_icon" alt="Наша страница Instagram"/>
+	    </a>
+	  </li>
+	  <li class="soc_media_element">
+	    <a href="https://www.facebook.com/thispagedoesnotexist">
+	      <img src="iconmonstr-facebook-4-96.png" class="soc_media_icon" alt="Наша страница Facebook"/>
+	    </a>
+	  </li>
+	  <li class="soc_media_element">
+	    <a href="https://vk.com/thispagedoesnotexist">
+	      <img src="iconmonstr-vk-4-96.png" class="soc_media_icon" alt="Наша страница Вконтакте"/>
+	    </a>
+	  </li>
+	</ul>
+	<span class="footer_text">Соцсети</span>
   </section>
 </footer>
 </html>

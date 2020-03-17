@@ -1,59 +1,52 @@
-html {
+.general_style {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background-color: rgb(16, 0, 96);
 }
 
-h1 {
+.page_title {
   font-size: calc(15px + 1.25vw);
   float: left;
   width: 20%;
 }
 
-h2 {
+.main_section_title {
   font-size: calc(15px + 1.75vw);
 }
 
-h3 {
+.section_header {
   font-size: calc(12px + 1vw);
 }
 
-p {
+.generic_paragraph {
   font-size: calc(10px + 0.8vw);
   color: rgb(16, 16, 64);
 }
 
 .three_points {
-  font-size: calc(8px + 0.6vw);
+  font-size: calc(8px + 0.8vw);
   color: rgb(16, 16, 64);
   list-style-type: circle;
+  padding-inline-start: 0px;
+  margin: 3%;
 }
 
-@media only screen and (min-width: 768px) {
-  .three_points {
-    display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-    list-style-type: none;
-	margin: 0%;
-	padding-inline-start: 0px;
-  }
-  .three_points_entry {
-    margin: 3.5%;
-	flex: 1 1 100%;
-  }
+.three_points_image {
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  object-fit: contain;
 }
 
-header {
+.header_bar {
   padding-left: 2%;
   padding-right: 2%;
-  padding-top: 0.5%;
+  padding-top: 0.3%;
   padding-bottom: 0.3%;
   background-color: rgb(16, 0, 96);
   color: rgb(224, 224, 256);
 }
 
-nav {
+.navigation_bar {
   float: left;
   width: 80%;
 }
@@ -78,17 +71,17 @@ nav {
   white-space: nowrap;
 }
 
-main {
+.main_part {
   background-color: rgb(32, 32, 128);
 }
 
-footer {
+.footer_bar {
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 1%;
 }
 
-label {
+.input_field_label {
   display:block;
   margin-bottom: 0.5%;
   margin-top: 0.3%;
@@ -110,7 +103,7 @@ label {
   margin-left: 15%;
 }
 
-.main_part {
+.main_section {
   clear: both;
   float: center;
   overflow: hidden;
@@ -123,9 +116,9 @@ label {
   clear: both;
   float: center;
   overflow: hidden;
-  width: 60%;
-  margin-left: 19%;
-  margin-right: 19%;
+  width: 84%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 3%;
@@ -136,6 +129,7 @@ label {
 .footer_text {
   font-size: calc(15px + 1.25vw);
   margin-right:10px;
+  float: right;
 }
 
 .separator {
@@ -149,17 +143,12 @@ label {
   clear:left;
 }
 
-input {
+.input_field {
   font-size: calc(8px + 0.6vw);
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-textarea {
-  font-size: calc(8px + 0.6vw);
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-button {
+.send_button {
   margin-top: 2%;
   padding: calc(5px + 0.5vw);
   font-size: calc(9px + 0.7vw);
@@ -172,10 +161,42 @@ button {
 .soc_media {
   text-align: right;
   color: rgb(224, 224, 256);
-  padding-top: 0.3%;
+}
+
+.soc_media_list {
+  list-style-type: none;
+}
+
+.soc_media_element {
+  float: right;
+}
+
+.soc_media_element a {
+  white-space: nowrap;
 }
 
 .soc_media_icon {
   width: calc(20px + 2vw);
   float:right;
+  padding: 0.3%;
+}
+
+@media only screen and (min-width: 768px) {
+  .three_points {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    list-style-type: none;
+	margin: 0%;
+  }
+  .three_points_entry {
+    margin: 3.5%;
+	flex: 1 1 100%;
+  }
+  .description {
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 19%;
+  }
 }
